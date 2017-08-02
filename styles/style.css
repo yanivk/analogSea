@@ -19,6 +19,9 @@ body{
 }
 
 .bouton{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
   background-color: #65C470;
   width: 320px;
   border: 2px solid #76b87d;
@@ -90,4 +93,9 @@ p{
 
 .logIn a{
   color: white;
+}
+
+.formulaire input::placeholder {
+  color: grey;
+  font-size: 16px;
 }
