@@ -15,29 +15,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-}
-
-.formulaire{
-  width: 400px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.formulaire input{
-  width: 320px;
-  border: 2px solid lightgrey;
-  padding: 15px;
-  border-radius: 3px;
-  margin-top: 15px;
-}
-
-.formulaire fieldset{
-  border: none;
-}
-
-.formulaire legend{
-  text-align: center;
+  display: block;
 }
 
 .bouton{
@@ -47,6 +25,9 @@ body{
   padding: 15px;
   border-radius: 3px;
   margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .bouton:hover{
@@ -56,4 +37,57 @@ body{
 
 p{
   text-align: center;
+  color: white;
+
+}
+.mdp p, .mdp a{
+  color: grey;
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+.formulaire{
+  width: 400px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.formulaire input{
+  width: 320px;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  border-radius: 3px;
+  margin-top: 15px;
+  display: block;
+  float: left;
+}
+
+.formulaire legend{
+  text-align: center;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.formulaire label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-weight: bold;
+  float:left;
+  margin-left: 10;
+}
+
+.formulaire fieldset{
+  border: none;
+}
+
+.form{
+  margin: 0;
+}
+
+.logIn a{
+  color: white;
 }
